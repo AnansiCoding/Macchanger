@@ -53,7 +53,7 @@ if __name__ == '__main__':
     def showWifi():
         print("The following is your Mac-Address for "+(wifi)+"\n")
         showWifiAddress()
-        continueInput = input("\n\nPress any key to continue, or B to go back.")
+        continueInput = input("\n\nPress any key to continue, or B to go back. ")
         if continueInput.lower() == ('b'):
             os.system('clear')
             showMac()
@@ -63,7 +63,7 @@ if __name__ == '__main__':
     def showEth():
         print("The following is your Mac-Address for "+(eth)+"\n")
         showEthAddress()
-        continueInput = input("\n\nPress any key to continue, or B to go back.")
+        continueInput = input("\n\nPress any key to continue, or B to go back. ")
         if continueInput.lower() == ('b'):
             os.system('clear')
             showMac()
@@ -95,7 +95,7 @@ if __name__ == '__main__':
             os.system('sudo macchanger -r '+(wifi))
             wifiUp()
             networkManagerRestart()
-            continueInput = input("\n\nPress any key to continue, or B to go back.")
+            continueInput = input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 randomWifi()
@@ -108,7 +108,7 @@ if __name__ == '__main__':
             os.system('sudo macchanger -e  '+(wifi))
             wifiUp()
             networkManagerRestart()
-            continueInput = input("\n\nPress any key to continue, or B to go back.")
+            continueInput = input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 randomWifi()
@@ -121,7 +121,7 @@ if __name__ == '__main__':
             os.system('sudo macchanger -a '+(wifi))
             wifiUp()
             networkManagerRestart()
-            continueInput = input("\n\nPress any key to continue, or B to go back.")
+            continueInput = input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 randomWifi()
@@ -134,7 +134,7 @@ if __name__ == '__main__':
             os.system('sudo macchanger -A '+(wifi))
             wifiUp()
             networkManagerRestart()
-            continueInput = input("\n\nPress any key to continue, or B to go back.")
+            continueInput = input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 randomWifi()
@@ -147,7 +147,7 @@ if __name__ == '__main__':
             continueInput = input("Press any key to show list.")
             os.system('macchanger -l | less')
             os.system('clear')
-            continueInput = input("\n\nPress any key to continue, or B to go back.")
+            continueInput = input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 randomWifi()
@@ -171,7 +171,7 @@ if __name__ == '__main__':
             os.system('sudo macchanger -r '+(eth))
             ethUp()
             networkManagerRestart()
-            continueInput = input("\n\nPress any key to continue, or B to go back.")
+            continueInput = input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 randomEth()
@@ -184,7 +184,7 @@ if __name__ == '__main__':
             os.system('sudo macchanger -e '+(eth))
             ethUp()
             networkManagerRestart()
-            continueInput = input("\n\nPress any key to continue, or B to go back.")
+            continueInput = input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 randomEth()
@@ -197,7 +197,7 @@ if __name__ == '__main__':
             os.system('sudo macchanger -a '+(eth))
             ethUp()
             networkManagerRestart()
-            continueInput = input("\n\nPress any key to continue, or B to go back.")
+            continueInput = input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 randomEth()
@@ -210,7 +210,7 @@ if __name__ == '__main__':
             os.system('sudo macchanger -A '+(eth))
             ethUp()
             networkManagerRestart()
-            continueInput = input("\n\nPress any key to continue, or B to go back.")
+            continueInput = input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 randomEth()
@@ -223,7 +223,7 @@ if __name__ == '__main__':
             continueInput = input("Press any key to show list.")
             os.system('macchanger -l | less')
             os.system('clear')
-            continueInput = input("\n\nPress any key to continue, or B to go back.")
+            continueInput = input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 randomEth()
@@ -265,7 +265,7 @@ if __name__ == '__main__':
             wifiUp()
             networkManagerRestart()
             print("\nMac-Address has been change to "+(customWifiMac))
-            continueInput=input("\n\nPress any key to continue, or B to go back.")
+            continueInput=input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 customWifi()
@@ -285,7 +285,7 @@ if __name__ == '__main__':
             ethUp()
             networkManagerRestart()
             print("\nMac-Address has been change to "+(customEthMac))
-            continueInput = input("\n\nPress any key to continue, or B to go back.")
+            continueInput = input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 customEth()
@@ -316,7 +316,7 @@ if __name__ == '__main__':
             wifiUp()
             networkManagerRestart()
             print("\nMac-Address has been reset")
-            continueInput=input("\n\nPress any key to continue, or B to go back.")
+            continueInput=input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower()==('b'):
                 os.system('clear')
                 resetMac()
@@ -339,7 +339,7 @@ if __name__ == '__main__':
             ethUp()
             networkManagerRestart()
             print("\nMac-Address has been reset")
-            continueInput = input("\n\nPress any key to continue, or B to go back.")
+            continueInput = input("\n\nPress any key to continue, or B to go back. ")
             if continueInput.lower() == ('b'):
                 os.system('clear')
                 resetMac()
