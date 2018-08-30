@@ -3,8 +3,8 @@ import os
 #In the below variable enter your wifi and ethernet names.
 #To find the names of you wifi and ethernet use ifconfig
 
-wifi = str('wlp6s0')
-eth = str('enp8s0')
+wifi = str('wlan0')
+eth = str('eth0')
 
 if __name__ == '__main__':
     pass
